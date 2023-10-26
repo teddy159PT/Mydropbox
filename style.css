@@ -27,7 +27,7 @@ header{
     box-sizing: border-box;
     height:22px;
     text-align: center;
-    margin-right:18px;
+    margin-right:23px;
 }
 
 ul {
@@ -36,6 +36,7 @@ list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  
  
   }
 
@@ -57,4 +58,25 @@ list-style-type: none;
   
   li a:hover {
     background-color: #F2EEE8;
+  }
+  h1{
+    margin-top:5%;
+    margin-left:26%;
+    color:#F7F5F2;
+    font-family: SharpGrotesk;
+    width:780px;
+    font-size:38px;
+ text-align: center;
+ font-weight:400;
+  }
+  p{
+line-height: 24px;;
+    margin-left:29%;
+    color:#F7F5F2;
+   text-align: center;
+    width:680px;
+    font-size:18px;
+    font-weight:400;
+    vertical-align:baseline;
+    
   }
