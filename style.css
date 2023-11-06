@@ -1,8 +1,20 @@
 
+@font-face {
+  font-family: "Atlas Grotesk Web Light Regular";
+  src: url("https://db.onlinewebfonts.com/t/43372a4ce8dc3abbca31595815be7cf3.eot");
+  src: url("https://db.onlinewebfonts.com/t/43372a4ce8dc3abbca31595815be7cf3.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/43372a4ce8dc3abbca31595815be7cf3.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/43372a4ce8dc3abbca31595815be7cf3.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/43372a4ce8dc3abbca31595815be7cf3.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/43372a4ce8dc3abbca31595815be7cf3.svg#Atlas Grotesk Web Light Regular")format("svg");
+}
+
 body{
-   font-family: Arial, Helvetica, sans-serif;
+  font-family: "Atlas Grotesk Web Light Regular";
     margin:0;
     background-color: #1E1919;
+    text-decoration:none solid rgb(30, 25, 25)
+    
     }
 header{
     background-color:white;
@@ -13,6 +25,7 @@ header{
     top: 0;
     z-index: 100; 
 }
+
 
 @font-face {
     font-family: SharpGrotesk;
@@ -46,8 +59,8 @@ list-style-type: none;
   li {
   
     float: left;
-    font-weight: 400;
-    font-size:16px;
+    font-weight:600;
+    font-size:15px;
   }
   
   li a {
@@ -68,9 +81,20 @@ list-style-type: none;
     color:#F7F5F2;
     font-family: SharpGrotesk;
     width:55%;
-    font-size:40px;
+    font-size:35px;
  text-align: center;
- line-height: 120%;
+
+ font-weight:400;
+  }
+  .hhh{
+    margin-top:7%;
+    margin-left:24%;
+    color:#F7F5F2;
+    font-family: SharpGrotesk;
+    width:55%;
+    font-size:32px;
+ text-align: center;
+
  font-weight:400;
   }
   p{
@@ -78,7 +102,7 @@ list-style-type: none;
     margin-left:28%;
     color:#F7F5F2;
    text-align: center;
-    width:47%;
+    width:48%;
     font-size:18px;
     font-weight:400;
     vertical-align:baseline;
@@ -94,7 +118,7 @@ list-style-type: none;
   text-align: center;
   margin-left:43%;
  cursor: pointer;
-} 
+ } 
 .button:hover{
   background-color: #4D90FF;
 }
@@ -123,7 +147,39 @@ video{
   flex-direction: column;
 }
 
+.grid-container {
+  margin-top:-72px;
+  margin-left:2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: left;
+  align-items: center;
+  padding: 120px;
+  grid-gap: 0.1em;
+  box-sizing: content-box;
+}
+.grid-item {
+  line-height:19.2px;
+ height: 144px;
 
+  padding: 20px;
+  font-size:16px;
+  color:#F7F5F2;
+  text-align: left;
+  
+}
+.bold{
+  font-weight:bold;
+  font-size: 16px;
+}
+.pgrid{
+  text-align: left;
+  margin-left:0;
+  line-height: 19.2px;
+  margin-top:0;
+  width:237px;
+  font-size: 16px;
+}
 @media (max-width: 700px)  {
  
      header ul li:nth-child(1),
